@@ -24,7 +24,10 @@ alco = st.selectbox("Alcohol Intake", [0,1])
 active = st.selectbox("Physical Activity", [0,1])
 
 # BMI feature
-BMI = weight / ((height / 100) ** 2)
+if height > 0:
+    BMI = weight / ((height / 100) ** 2)
+else:
+    BMI = 0
 
 input_data = np.array([[
     0,
