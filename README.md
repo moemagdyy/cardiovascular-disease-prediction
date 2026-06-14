@@ -178,7 +178,9 @@ The deployment demonstrates how machine learning models can be transformed into 
 * Streamlit
 * GitHub
 
----
+--- 
+streamlit app link
+https://cardiovascular-disease-prediction-dxqqj9dexjvvutpgg3hnaw.streamlit.app/%5D
 
 ## Author
 
